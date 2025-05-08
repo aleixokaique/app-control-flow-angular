@@ -1,0 +1,25 @@
+.text-success{
+  color: green;
+}
+
+.text-danger{
+  background-color: red;
+}
+
+.special{
+  border: 1px solid red;
+  padding: 20px;
+  margin: 20px;
+}
+
+.errorClass{
+  color: red;
+  font-weight: bold;
+}
+
+.addClass{
+  border: 1px solid yellow;
+  background-color: black;
+  height: 100px;
+  width: 100px;
+}

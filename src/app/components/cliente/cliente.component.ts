@@ -72,7 +72,7 @@ export class ClienteComponent {
           telefone: formData.telefone
         }
         //console.log(clienteAdd)
-        this.clienteService.add(clienteAdd)//chamando a service para inserir
+        this.clienteService.add(clienteAdd).subscribe()//chamando a service para inserir
         alert('Inserido com sucesso')//Enviando feedback ao usuario
       }
 
@@ -88,6 +88,7 @@ export class ClienteComponent {
     }
 
     this.clienteForm.reset()//limpar o form após o preenchimento
+    this.list()
 
   }
 
